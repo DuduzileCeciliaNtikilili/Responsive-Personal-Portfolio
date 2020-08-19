@@ -7,7 +7,7 @@
 
 html{
     font-size: 10px;
-    font-family: "Roboto" , Sans-Serif;
+    font-family: "Roboto", Sans-Serif, serif;
     color: #eee;
 }
 
@@ -266,15 +266,15 @@ li{
     transition: color 650ms;
 }
 
-.fa-facebook-squre:hover{
+.fa-facebook-square:hover{
     color: #4267b2;
 }
 
-fa-twitter-squre:hover {
+.fa-twitter-square:hover {
     color: #38a1f3;
 }
 
-fa-dribbble-squre:hover {
+.fa-dribbble-square:hover {
     color: #ea4c89;
 }
 /*End about*/
@@ -521,7 +521,7 @@ input[type="submit"]{
 /*End animations*/
 
 
-/*media queries*/
+/*Start media queries*/
 
 @media screen and (max-width: 768px) {
     body {
@@ -587,8 +587,9 @@ input[type="submit"]{
     }
 }
 
-@media sreen and (max-width: 600px) {
-    menu-toggler{
+@media screen and (max-width: 600px) {
+
+    .menu-toggler {
         top:2rem;
     }
 
@@ -642,3 +643,4 @@ input[type="submit"]{
         right: 2rem;
     }
 }
+/*End media queries*/

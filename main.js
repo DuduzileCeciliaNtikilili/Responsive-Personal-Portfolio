@@ -9,23 +9,27 @@ $(document).ready(function () {
         $(top.nev).moveClass("open");
     });
 
-    $('nav a[href*="#"]').on("click", function () {
-        $("html. body").animate(keyframes {
-            scrollTop: $($(this).attr('href')).offset().top - 100
-        }  options:2000);
+    $('.nav a[href*="#"]').on("click", function () {
+        $('html, body').animate(keyframes:{
+            scrollToTop: $($(this).attr('href')).offset().top - 100
+        }, options:2000);
     });
 
-    $('#up').on('click'), function () {
-        $(html, body).animate(keyframes {
+    $('#up').on('click', function () {
+        $('html, body').animate(keyframes: {
             scrollTop: 0
-        }  options: 2000);
-
+        }, options:2000);
     });
 
     AOS.init({
-        easing: 'ease'
-        duration: 1800,
-        once: true
+        easing: 'ease',
+        duration: 1800
     });
+});
+    
+
+
+
+
 
 
